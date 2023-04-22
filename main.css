@@ -1,0 +1,62 @@
+/*Definições*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Cabeçalho*/
+
+header:first-child {
+    color: #ffff;
+    padding: 20px 20px 20px 20px;
+    background-color: #e2bd18;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+header li {
+    padding: 0px 10px;
+    display: inline;
+}
+header:first-child a{
+    font-weight: bold;
+    text-decoration: none;
+    color: aliceblue;
+}
+/*Seções - Artigos*/
+.artigos{
+    padding: 40px 15px 15px 300px;
+}
+.conteiner {
+    width: 100%;
+    margin: 0 auto ;
+}
+.artigos article img{
+    /*height: 180px;*/
+    width: 25%;
+    border-radius: 5%;
+}
+.artigos header {
+    font-size: 10px;
+}
+section h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.artigos article a{
+    background-color: rgb(87, 78, 78);
+    color: aliceblue;
+    margin-top: 10px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 10%;
+    text-decoration: none;
+}
+.artigos article a:hover{
+    text-decoration: underline;
+}
+body {
+    background-image: url(./Img/Fundo.jpg);
+}
