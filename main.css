@@ -16,7 +16,7 @@ header:first-child {
     justify-content: space-between;
     align-items: center;
   }
-header li {
+  header li {
     padding: 0px 10px;
     display: inline;
 }
@@ -34,7 +34,6 @@ header:first-child a{
     margin: 0 auto ;
 }
 .artigos article img{
-    /*height: 180px;*/
     width: 25%;
     border-radius: 5%;
 }
@@ -46,7 +45,6 @@ section h2{
     margin-bottom: 5px;
 }
 .artigos article a{
-    background-color: rgb(87, 78, 78);
     color: aliceblue;
     margin-top: 10px;
     padding: 5px;
@@ -57,6 +55,22 @@ section h2{
 .artigos article a:hover{
     text-decoration: underline;
 }
-body {
-    background-image: url(./Img/Fundo.jpg);
+#Gaming {
+    background-color: rgb(114, 93, 26);
+}
+#Gadgets {
+    background-color: #beaf69;
+}
+#Tecnologia{
+ background-color: #dfd08d;
+}
+
+#Tecnologia article a {
+    background-color: rgb(114, 93, 26);
+}
+#Gaming article a{
+    background-color: #beaf69
+}
+#Gadgets article a{
+    background-color: #dfd08d;
 }
