@@ -1,0 +1,26 @@
+.container{
+    background-color: var(--cor-fundo-calculo);
+    width: 20%;
+    padding: 5%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+form input{
+    display: block;
+}
+.caixa__texto,.botao__enviar{
+    padding: 0.5em;
+    margin: 10%;
+}
+.form__titulo{
+    padding: 1em;
+    margin-left: 2em;
+}
+.resultado__valor{
+    display: none;
+    padding: 20px;
+    background-color: var(--valor-true);
+    color: var(--cor-resultado-true);
+    text-align: center;
+    border-radius: 10px;
+}

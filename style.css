@@ -1,0 +1,18 @@
+@import url(./style/form.css);
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+:root{
+    --cor-de-fundo:#c4bdbd ;
+    --cor-fundo-calculo: #fff;
+    --cor-resultado: #f0f0f0;
+    --cor-resultado-true: #000000;
+    --fonte-principal: 'Josefin Sans', sans-serif;
+    --valor-true: #19d829;
+    --valor-false: #f51936;
+}
+*{
+    font-family: var(--fonte-principal);
+}
+body{
+    background-color: var(--cor-de-fundo);
+}
