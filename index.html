@@ -3,44 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
     <title>Exercício_plugins_jquery</title>
   </head>
   <body>
     <header>
-      <h1 class="tituto__banner">Cadastro na EBAC Motors</h1>
+      <div class="container">
+        <h1 class="titulo__banner">Cadastro na EBAC Motors</h1>
+        <nav class="links__banner">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <form>
-        <div>
+      <form class="form__contato">
+        <div class="forms__cadastro">
           <label for="text">Nome completo: </label>
           <input type="text" />
         </div>
-        <div>
+        <div class="forms__cadastro">
           <label for="email">E-mail:</label>
           <input type="email" />
         </div>
-        <div>
+        <div class="forms__cadastro">
           <label for="tel">Telefone:</label>
           <input type="tel" />
         </div>
-        <div>
+        <div class="forms__cadastro">
           <label for="number">CPF:</label>
           <input type="number" />
         </div>
-        <div>
+        <div class="forms__cadastro">
           <label for="text">Endereço:</label>
           <input type="text" />
         </div>
-        <div>
+        <div class="forms__cadastro">
           <label for="text">CEP:</label>
           <input type="text" />
         </div>
-        <button type="submit">Cadastrar:</button>
+        <button type="submit">Cadastrar</button>
       </form>
     </main>
-    <footer>
-
-    </footer>
+    <footer></footer>
   </body>
 </html>

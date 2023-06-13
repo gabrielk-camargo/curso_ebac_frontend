@@ -1,9 +1,17 @@
 @import url(reset.css);
 @import url(header.css);
+@import url(main.css);
 
-:root{
-    --cor-de-fundo: #fff3;
+:root {
+  --cor-de-fundo: #928b8b33;
+  --cor-banner: #9b97a1ee;
+  --cor-form: #d2d1d3ee;
+  --cor-button: #9c9494;
+  --cor-button-hover: #8b8585;
+  --cor-fonte: #fff;
+  --fonte-primária: "Rubik", sans-serif;
 }
-body{
-    background-color: var(--cor-de-fundo);
+body {
+  background-color: var(--cor-de-fundo);
+  font-family: var(--fonte-primária);
 }

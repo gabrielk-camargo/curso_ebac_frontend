@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+form{
+    background-color: var(--cor-form);
+    margin-top: 120px;
+    padding: 60px 80px;
+    border-radius: 25px;
+}
+.forms__cadastro label{
+    font-weight: bold;
+    display: block;
+    padding: 20px 0;
+}
+
+ button{
+    width: 100%;
+    margin-top: 2em;
+    padding: 1em;
+    color: var(--cor-fonte);
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    background-color: var(--cor-button);
+}
+button:hover{
+    background-color: var(--cor-button-hover);
+}

@@ -1,0 +1,28 @@
+header{
+    background-color: var(--cor-banner);
+    margin: 1em;
+    padding: 2em;
+    border-radius: 10px;
+}
+.titulo__banner{
+    font-weight: bold;
+    font-size: 35px;
+    color: var(--cor-fonte);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links__banner li{
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.links__banner li a{
+    text-decoration: none;
+    color: var(--cor-fonte);
+}
+.links__banner li a:hover{
+    text-decoration: underline;
+}
