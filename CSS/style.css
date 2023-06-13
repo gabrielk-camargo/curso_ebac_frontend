@@ -9,6 +9,8 @@
   --cor-button: #9c9494;
   --cor-button-hover: #8b8585;
   --cor-fonte: #fff;
+  --cor-error: #ca0b0b;
+  --cor-sucess: rgb(87, 218, 36);
   --fonte-primária: "Rubik", sans-serif;
 }
 body {

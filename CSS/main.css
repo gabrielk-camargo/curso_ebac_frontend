@@ -4,7 +4,7 @@ main{
 }
 form{
     background-color: var(--cor-form);
-    margin-top: 120px;
+    margin-top: 100px;
     padding: 60px 80px;
     border-radius: 25px;
 }
@@ -27,4 +27,18 @@ form{
 }
 button:hover{
     background-color: var(--cor-button-hover);
+}
+.error{
+    color: var(--cor-error);
+    width: 100%;
+    font-size: 12px;
+}
+.Mensagem__confirmação{
+    display: none;
+    background-color: var(--cor-sucess);
+    color: var(--cor-fonte);
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
 }

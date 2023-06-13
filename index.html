@@ -32,31 +32,44 @@
       <form class="form__contato">
         <div class="forms__cadastro">
           <label for="text">Nome completo: </label>
-          <input type="text" />
+          <input type="text" name="nome" id="nome" />
         </div>
         <div class="forms__cadastro">
           <label for="email">E-mail:</label>
-          <input type="email" />
+          <input type="email" name="email" id="email" />
         </div>
         <div class="forms__cadastro">
           <label for="tel">Telefone:</label>
-          <input type="tel" />
+          <input type="tel" id="Telefone" name="telefone" id="Telefone" />
         </div>
         <div class="forms__cadastro">
-          <label for="number">CPF:</label>
-          <input type="number" />
+          <label for="text">CPF:</label>
+          <input type="text" name="CPF" id="CPF"/>
         </div>
         <div class="forms__cadastro">
           <label for="text">Endereço:</label>
-          <input type="text" />
+          <input type="text" name="endereço" id="endereço"/>
         </div>
         <div class="forms__cadastro">
           <label for="text">CEP:</label>
-          <input type="text" />
+          <input type="text" name="CEP" id="CEP"/>
         </div>
+        <p class="Mensagem__confirmação"></p>
         <button type="submit">Cadastrar</button>
       </form>
     </main>
     <footer></footer>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script src="./JS/jquery.mask.min.js"></script>
+    <script src="./JS/jquery.validate.min.js"></script>
+    <script src="./JS/messages_pt_BR.min.js"></script>
+    <script src="./JS/main.js"></script>
   </body>
 </html>
